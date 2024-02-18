@@ -36,10 +36,10 @@ function Projects() {
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
-              title="Birthday Web"
-              description="Wish your loved one's Happy Birthday!"
-              ghLink="https://github.com/mrpratham/happy-birthday"
-              demoLink="https://mrpratham.github.io/happy-birthday/"
+              title="SkillHub- Responsive landing Page"
+              description="A responsive landing page called Skillhub! Developed using HTML, CSS, and Javascript, Skillhub offers a user-friendly interface to showcase skills and expertise. It's designed to adapt seamlessly across devices, providing a smooth experience for visitors. Check it out and let's connect!"
+              ghLink="https://github.com/mrpratham/PRODIGY_WD_01"
+              
             />
           </Col>
 
@@ -55,7 +55,16 @@ function Projects() {
             />
           </Col>
 
-          
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={leaf}
+              isBlog={false}
+              title="StopWatch Web App"
+              description="A Stopwatch Web App built from scratch using HTML, CSS, and JavaScript! This sleek application offers precision timing features and a user-friendly interface, perfect for tracking time with accuracy. Dive in, explore its functionality, and let's connect to discuss more!"
+              ghLink="https://github.com/mrpratham/PRODIGY_WD_02"
+              
+            />
+          </Col>
         </Row>
       </Container>
     </Container>
